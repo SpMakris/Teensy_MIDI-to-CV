@@ -30,7 +30,8 @@ class ADSR {
       time_constant[0] = 500 * (exp((Att) / 256) - 1);
       time_constant[1] = 1000 * (exp((Dec) / 256) - 1);
       time_constant[3] = 1000 * (exp((Rel) / 256) - 1);
-      targets[2] = 76.4 * (exp((Sus) / 256) - 1);;
+//      targets[2] = 76.4 * (exp((Sus) / 256) - 1);;
+targets[2] = 4*Sus;
       targets[1] = targets[2];
     }
     

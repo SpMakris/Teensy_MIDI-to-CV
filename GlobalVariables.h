@@ -1,7 +1,7 @@
 
 #define MEMORY_LENGTH 4 //number of pressed notes remembered
 
-#define VoltageScale 32 // Dac voltage scale. 1V/oct, about 2.5 external analog gain
+#define VoltageScale 32 // Dac voltage scale. 1V/oct, about 3 external analog gain
 #define DAC 26 //dac pin
 #define ENVELOPE 17//env pin
 #define GATE 3//gate pin
