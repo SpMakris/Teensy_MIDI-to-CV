@@ -20,7 +20,7 @@ class PitchCV {
 //update glide time constant. exp() gives better feel for linear potentiometers. Use log potentiometers to get rid of
 //the exp() function.
     void update_glide(float glidetime) {
-      glide_time =100 * (exp((glidetime) / 256) - 1); 
+      glide_time =10 * (exp((glidetime) / 256) - 1); 
     }
 
 //to be called at regular intervals.   

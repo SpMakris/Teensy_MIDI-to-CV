@@ -32,7 +32,7 @@ void setup() {
 
   memory_index = -1;
 //run voltage update routines every 50us. Can be increased to 500-1000us.
-  VTimer.begin(Vupdate, 50);
+  VTimer.begin(Vupdate, 500);
 }
 
 void loop() {
